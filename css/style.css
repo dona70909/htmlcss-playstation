@@ -3,3 +3,11 @@
     float: right;
     padding: .5rem 0;
 }
+
+.my-header-top a{
+    color: black;
+}
+
+.my-header-top i{
+    color: black;
+}
