@@ -14,14 +14,17 @@
 
 /* !JUMBOTRON BIG */
 
-.my-jumbo-big{
-    /* width: 100%;
-    /* height: 800x; */
-}
+/*.my-jumbo-big{
+    width: 100%;
+    height: 800x; 
+}*/
 
-.my-jumbo-big img{
+.my-jumbo-big .my-back-img{
     width: 100%;
     object-fit: cover;
     height: 600px;
 }  
 
+.my-logo-returnal{
+    width: 200px;
+}
