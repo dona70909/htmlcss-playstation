@@ -151,3 +151,12 @@
     color:black;
     background-color: white;
 }
+
+/* ! social cards */
+
+.my-social-cards{
+    padding: 2rem 0 1rem 0;
+}
+.my-social-img{
+    width:100%;
+}
