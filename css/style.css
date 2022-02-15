@@ -1,4 +1,5 @@
 .my-header-top img{
-    width: 150px;
+    width: 120px;
     float: right;
+    padding: .5rem 0;
 }
