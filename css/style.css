@@ -73,16 +73,16 @@
 }
 
 .my-console h1{
-    font-weight: 600; 
+    font-weight: 500; 
 }
 
 .my-console p{
     color:rgb(172, 172, 172);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
-/* ! my-console-img */
+/* * my-console-img */
 
 .my-console-card{
     width: 80%;
@@ -99,4 +99,37 @@
 .new-game-cards img{
     width: 100%;
     border-radius: 10px;
+}
+
+/* ! console big with images */
+
+.my-console-big img{
+    width: 100%;
+}
+
+
+/* ! jubo small */
+
+.my-jumbo-small {
+    width: 100%;
+    background-color: grey;
+}
+
+.my-jumbo-small p{
+    font-weight: 600;
+}
+
+.my-logo-plus{
+    width: 200px;
+}
+
+.btn-light{
+    background-color: lightgrey;
+    color: blue;
+    padding: .5rem 1rem;
+    border:none;
+}
+
+.my-ps-plus-img{
+    width: 100%;
 }
