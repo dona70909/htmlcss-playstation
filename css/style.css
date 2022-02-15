@@ -50,3 +50,9 @@
 .my-btn-orange{
     background-color:#cd3d0f ;
 }
+
+/* ! Cards  */
+.my-cards img{
+    width: 100%;
+    border-radius: 20px;
+}
