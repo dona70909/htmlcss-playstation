@@ -52,7 +52,16 @@
 }
 
 /* ! Cards  */
+
 .my-cards img{
     width: 100%;
     border-radius: 20px;
+}
+
+.btn-blue{
+    background-color:#2d64e6 ;
+}
+
+.my-card-ps5-thumb{
+    width: 100%;
 }
