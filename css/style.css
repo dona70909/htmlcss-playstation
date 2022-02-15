@@ -52,7 +52,6 @@
 }
 
 /* ! Cards  */
-
 .my-cards img{
     width: 100%;
     border-radius: 20px;
@@ -64,4 +63,21 @@
 
 .my-card-ps5-thumb{
     width: 100%;
+}
+
+/* ! Console */
+.my-console h5{
+    color:#0072ce;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.my-console h1{
+    font-weight: 600; 
+}
+
+.my-console p{
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+    font-size: 1.5rem;
 }
