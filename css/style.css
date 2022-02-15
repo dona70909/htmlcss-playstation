@@ -4,10 +4,24 @@
     padding: .5rem 0;
 }
 
-.my-header-top a{
+.my-header-bottom a{
     color: black;
 }
 
-.my-header-top i{
+.my-header-bottom i{
     color: black;
 }
+
+/* !JUMBOTRON BIG */
+
+.my-jumbo-big{
+    /* width: 100%;
+    /* height: 800x; */
+}
+
+.my-jumbo-big img{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}  
+
