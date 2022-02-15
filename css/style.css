@@ -28,3 +28,25 @@
 .my-logo-returnal{
     width: 200px;
 }
+
+.my-jumbo-content-position{
+    bottom:60px;
+    left: 0;
+}
+
+.my-jumbo-title{
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.my-jumbo-paragraph{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.my-btn-orange{
+    background-color:#cd3d0f ;
+}
