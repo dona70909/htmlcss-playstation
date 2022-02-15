@@ -81,3 +81,12 @@
     font-weight: 700;
     font-size: 1.5rem;
 }
+
+/* ! my-console-img */
+
+.my-console-card{
+    width: 80%;
+}
+.my-console-img img{
+    width: 100%;
+}
