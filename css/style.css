@@ -90,3 +90,13 @@
 .my-console-img img{
     width: 100%;
 }
+
+/* ! New games cards */
+.new-game-cards{
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+.new-game-cards img{
+    width: 80%;
+    border-radius: 10px;
+}
