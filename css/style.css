@@ -196,3 +196,19 @@
 #my-logo-ps5{
     fill: white;
 }
+
+/* ! footer bottom */
+
+.my-sie-container{
+    width: 50px;
+}
+#my-sie-logo{
+    width: 50%;
+}
+
+.my-size-sie-text{
+    font-size: .8rem;
+    line-height: .2rem;
+    padding-top: 1rem;
+    vertical-align: middle;
+}
