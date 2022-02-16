@@ -185,7 +185,7 @@
 
 /* ! Footer footer-top */
 
-.myfooter-top{
+footer{
     background-color:rgb(0, 67, 156) ;
 }
 .my-lng-svg{
@@ -199,11 +199,8 @@
 
 /* ! footer bottom */
 
-.my-sie-container{
-    width: 50px;
-}
 #my-sie-logo{
-    width: 50%;
+    width: 100px;
 }
 
 .my-size-sie-text{
