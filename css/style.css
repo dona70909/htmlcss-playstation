@@ -216,3 +216,9 @@ footer{
 
 
 /* todo Hover */
+
+.my-cards  div[class^= "col-"] :hover{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 2px;
+}
