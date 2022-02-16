@@ -1,6 +1,12 @@
 header{
     position: fixed;
     width: 100%;
+    top:0;
+    height:100px;
+}
+
+main{
+    padding-top: 100px;
 }
 
 body{
@@ -43,11 +49,6 @@ body{
 
 
 /* ? common jumbo jumbo 1 and jumbo 2*/
-/* .my-jumbo{
-    height: 800px;
-} */
-
-
 .my-jumbo-col{
     padding: 15rem 2rem 2rem; 
 }
