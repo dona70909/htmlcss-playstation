@@ -1,9 +1,14 @@
+header{
+    position: fixed;
+    width: 100%;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
 /* ! HEADER */
 .my-header-top img{
-    width: 120px;
+    width: 100px;
     float: right;
     padding: .5rem 0;
 }
@@ -25,18 +30,22 @@ body{
 }  
 
 .my-logo-jumbo-1{
-    width: 200px;
+    width: 250px;
 }
 
 .my-btn-orange{
     background-color:#cd3d0f ;
 }
 
+.my-jumbo-pt{
+    padding-top: 6rem 0;
+}
+
 
 /* ? common jumbo jumbo 1 and jumbo 2*/
-.my-jumbo{
+/* .my-jumbo{
     height: 800px;
-}
+} */
 
 
 .my-jumbo-col{
@@ -76,6 +85,10 @@ body{
 }
 
 /* ! Console */
+
+.my-console{
+    padding-top: 6rem;
+}
 .my-console h5{
     color:#0072ce;
     font-size: 1.3rem;
@@ -108,9 +121,11 @@ body{
     background-repeat: no-repeat;
 }
 
-.my-jumbo-pt{
-    padding-top: 6rem;
-}
+
+
+.my-jumbo-pt-due{
+    padding: 3rem 1rem 2rem ;
+} 
 
 .my-logo-jumbo-2{
     width: 50%;
@@ -121,6 +136,7 @@ body{
 .new-game-cards{
     background-color:rgb(31, 31, 31);
     color: white;
+    padding-top: 5rem;
 }
 .new-game-cards img{
     width: 100%;
@@ -133,6 +149,10 @@ body{
     width: 100%;
 }
 
+.my-console-big {
+    padding: 6rem 0;
+}
+
 
 /* ! jubo small */
 
@@ -141,42 +161,51 @@ body{
 }
 
 .my-jumbo-small-grey{
-    background-color: grey;
+    background-color:rgb(190, 188, 187);
 }
 
 .my-jumbo-small p{
     font-weight: 600;
 }
 
+/* both logo size */
 .my-logo{
     width: 200px;
 }
 
+/* 1st jumbo small btn */
 .btn-light{
     background-color: rgb(217, 218, 220);
     color: rgb(61, 111, 229);
     padding: .5rem 1rem;
     border:none;
+    font-weight: 600;
 }
 
-.my-ps-plus-img{
-    width: 100%;
-}
+
 
 /* ! my-discount-cards */
-.my-jumbo-small-blue{
-    background-color: darkblue;
-}
 .my-discount-cards img{
     width:100%;
 }
 
 /* ! 2nd jumbo small */
+.my-jumbo-small-blue{
+    background-color: rgb(22, 28, 59);
+}
+
+/* 2nd jumbo small logo */
+.my-ps-plus-img{
+    width: 100%;
+}
+
+/* * 2nd jumbo small btn*/
 
 .btn-grey{
     color:black;
     background-color: rgb(245, 245, 245);
 }
+
 
 /* ! social cards */
 
