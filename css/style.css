@@ -38,11 +38,10 @@ main{
 .my-header-bottom .nav-item > a:first-child:hover{
     color:rgb(33, 131, 215) !important; 
 }
-form > input{
-    display: none ;
-}
-.btn > i:hover + form > input {
-    display:block !important;
+
+
+.bi:hover + form input{
+    display: inline !important;
 }
 
 
