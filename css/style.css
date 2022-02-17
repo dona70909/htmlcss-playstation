@@ -1,3 +1,7 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -9,9 +13,6 @@ main{
     padding-top: 100px;
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-}
 /* ! HEADER */
 .my-header-top img{
     width: 100px;
@@ -88,6 +89,14 @@ body{
 .my-card-ps5-thumb{
     width: 100%;
 }
+
+.my-cards  div[class^= "col-"]{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 2px;
+    border-color:white;
+}
+
 
 /* ! Console */
 
@@ -251,10 +260,10 @@ footer{
 
 /* todo Hover */
 
-.my-cards  div[class^= "col-"] :hover{
-    border: 2px solid  rgb(75, 155, 220);
-    border-radius: 20px;
-    padding: 2px;
+
+
+.my-cards  div[class^= "col-"]:hover{
+    border-color: rgb(75, 155, 220);
 }
 
 
