@@ -7,6 +7,7 @@ header{
     width: 100%;
     top:0;
     height:100px;
+    z-index: 1;
 }
 
 main{
@@ -40,14 +41,6 @@ main{
 
 .my-logo-jumbo-1{
     width: 250px;
-}
-
-.my-btn-orange{
-    background-color:#cd3d0f ;
-}
-
-.my-btn-orange:hover{
-    box-shadow: 0 0 0 .25rem #f84509;
 }
 
 .my-jumbo-pt{
@@ -140,18 +133,25 @@ main{
     object-fit: contain;
     background-position-x: center;
     background-repeat: no-repeat;
+    background:linear-gradient(lightgrey);
 }
 
-
+.my-btn-orange{
+    background-color:#cd3d0f ;
+}
 
 .my-jumbo-pt-due{
-    padding: 3rem 1rem 2rem ;
+    padding: 3rem 1rem 2rem;
 } 
 
 .my-logo-jumbo-2{
     width: 50%;
+    
 }
 
+.my-jumbo-big-2 p,h1{
+    text-shadow: black;
+}
 
 /* ! New games cards */
 .new-game-cards{
@@ -267,23 +267,6 @@ footer{
 
 /* todo Hover */
 
-.my-cards  div[class^= "col-"]:hover{
-    border-color: rgb(75, 155, 220);
-}
-
-/* my console 5 images  */
-.my-cards-cnt>div[class^= "col-"]:hover{
-    border-bottom-color: rgb(75, 155, 220);
-}
-
-.my-console-card > img{
-    opacity:.4;
-}
-
-.my-console-card > img:hover{
-    opacity: 1;
-}
-
 /* hover header */
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
@@ -294,7 +277,31 @@ footer{
     color:rgb(33, 131, 215) !important; 
 }
 
-
+/* 6 card under the first big jumbo */
 .bi:hover + form input{
     display: inline !important;
+}
+
+.my-cards  div[class^= "col-"]:hover{
+    border-color: rgb(75, 155, 220);
+}
+
+/* my console 5 images  */
+.my-cards-cnt>div[class^= "col-"]:hover{
+    border-bottom-color: rgb(75, 155, 220);
+}
+
+.my-console-card > img{
+    opacity:.6;
+}
+
+.my-console-card > img:hover{
+    opacity: 1;
+}
+
+
+
+/* jumbo 2 */
+.my-btn-orange:hover{
+    box-shadow: 0 0 0 .25rem #0f0501;
 }
