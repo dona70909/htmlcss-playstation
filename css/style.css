@@ -30,10 +30,21 @@ main{
     color: black !important;
 }
 
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
 
 .my-header-bottom .nav-item > a:first-child:hover{
     color:rgb(33, 131, 215) !important; 
 }
+form > input{
+    display: none ;
+}
+.btn > i:hover + form > input {
+    display:block !important;
+}
+
 
 
 /* !JUMBOTRON BIG 1 */
