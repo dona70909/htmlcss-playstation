@@ -20,13 +20,19 @@ main{
     padding: .5rem 0;
 }
 
-.my-header-bottom a{
-    color: black;
+.my-header-bottom .nav-item > a{
+    color: black !important; 
 }
 
-.my-header-bottom i{
-    color: black;
+
+.my-header-bottom  i{
+    color: black !important;
 }
+
+.my-header-bottom .nav-item a:hover{
+    color:rgb(33, 131, 215) !important; 
+}
+
 
 /* !JUMBOTRON BIG 1 */
 .my-jumbo-big-1{
