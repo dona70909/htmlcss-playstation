@@ -21,7 +21,8 @@ main{
 }
 
 .my-header-bottom .nav-item > a{
-    color: black; 
+    color: black;
+    font-weight: 700;
 }
 
 
