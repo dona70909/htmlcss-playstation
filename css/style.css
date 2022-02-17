@@ -21,13 +21,14 @@ main{
 }
 
 .my-header-bottom .nav-item > a{
-    color: black !important; 
+    color: black; 
 }
 
 
 .my-header-bottom  i{
     color: black !important;
 }
+
 
 .my-header-bottom .nav-item a:hover{
     color:rgb(33, 131, 215) !important; 
