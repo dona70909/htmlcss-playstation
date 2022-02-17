@@ -133,11 +133,10 @@ main{
     object-fit: contain;
     background-position-x: center;
     background-repeat: no-repeat;
-    background:linear-gradient(rgb(29, 28, 28));
 }
 
 .my-btn-orange{
-    background-color:#cd3d0f ;
+    background-color:rgb(205, 61, 15) ;
 }
 
 .my-jumbo-pt-due{
@@ -146,12 +145,23 @@ main{
 
 .my-logo-jumbo-2{
     width: 50%;
-    
+    margin-bottom: 2rem;
 }
 
-.my-jumbo-big-2 p,h1{
+.my-jumbo-big-2 p{
     text-shadow: black;
-    background:linear-gradient(rgb(29, 28, 28));
+    background: linear-gradient(135deg, rgba(101, 0, 0, .7) 70%, rgba(238, 191, 63, .7)30%);
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.my-jumbo-big-2 h1{
+    text-shadow: black;
+    background: linear-gradient(135deg, rgba(101, 0, 0, .7) 60%, rgba(238, 191, 63, .7)40%);
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* ! New games cards */
