@@ -31,7 +31,7 @@ main{
 }
 
 
-.my-header-bottom .nav-item a:hover{
+.my-header-bottom .nav-item > a:first-child:hover{
     color:rgb(33, 131, 215) !important; 
 }
 
