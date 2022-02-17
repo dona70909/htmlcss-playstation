@@ -126,6 +126,11 @@ main{
     width: 100%;
 }
 
+/* border for a better hover */
+.my-cards-cnt>div[class^= "col-"]{
+    border-bottom: 3px solid white;
+}
+
 
 /* !  jumbo big due  */
 .my-jumbo-big-2{
@@ -260,13 +265,10 @@ footer{
 
 /* todo Hover */
 
-
-
 .my-cards  div[class^= "col-"]:hover{
     border-color: rgb(75, 155, 220);
 }
 
-
 .my-cards-cnt>div[class^= "col-"]:hover{
-    border-bottom: 3px solid rgb(75, 155, 220);
+    border-bottom-color: rgb(75, 155, 220);
 }
