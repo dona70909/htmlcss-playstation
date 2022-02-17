@@ -30,22 +30,6 @@ main{
     color: black !important;
 }
 
-.btn-check:focus + .btn, .btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0 !important;
-}
-
-.my-header-bottom .nav-item > a:first-child:hover{
-    color:rgb(33, 131, 215) !important; 
-}
-
-
-.bi:hover + form input{
-    display: inline !important;
-}
-
-
-
 /* !JUMBOTRON BIG 1 */
 .my-jumbo-big-1{
     background-image:url('../img/jumbo-bg.png');
@@ -287,6 +271,30 @@ footer{
     border-color: rgb(75, 155, 220);
 }
 
+/* my console 5 images  */
 .my-cards-cnt>div[class^= "col-"]:hover{
     border-bottom-color: rgb(75, 155, 220);
+}
+
+.my-console-card > img{
+    opacity:.4;
+}
+
+.my-console-card > img:hover{
+    opacity: 1;
+}
+
+/* hover header */
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.my-header-bottom .nav-item > a:first-child:hover{
+    color:rgb(33, 131, 215) !important; 
+}
+
+
+.bi:hover + form input{
+    display: inline !important;
 }
